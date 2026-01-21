@@ -30,7 +30,7 @@ A **DouroVinhos**, líder na distribuição de vinhos no Norte de Portugal, oper
 Para equilibrar a **Velocidade de Venda** (Negócio) com a **Segurança** (TI), desenhei uma arquitetura **Offline-First com Edge Validation**.
 
 ### 1. O Fluxo de Solução (BPMN)
-![Fluxo BPMN](./03-architecture/diagrama_final_v1.png)
+![Fluxo BPMN](./03-architecture/diagrama_final_v1.jpg)
 *(Clique na imagem para ampliar)*
 
 ### 2. Decisões Técnicas Chave
@@ -54,8 +54,8 @@ A documentação segue o ciclo de vida completo de Engenharia de Software (SDLC)
 * **Glossário de Negócio:** Definição de termos críticos (Ex: "Bonificação 12+1", "Stamp PHC").
 
 ### 🔹 [Fase 3: Arquitetura Técnica (TO-BE)](./03-architecture/)
-* **Especificação de Processo:** Documento da lógica de sincronização.
-* **Diagrama BPMN 2.0:** Fluxo técnico de tratamento de erros, *polling* e gestão de estados.
+* **[Especificação de Arquitetura Técnica (Completa)](./03-architecture/01_Especificacao_Arquitetura_Tecnica_Completa.pdf):** Documento mestre v2.0 contendo Diagramas de Sequência (Polling/Sync), Modelo de Dados (ERD) e BPMN.
+* **Artefactos Visuais:** Diagramas de Sequência e Casos de Uso detalhados incluídos na pasta.
 
 ### 🔹 [Fase 4: Especificação Funcional (SRS)](./04-requirements/)
 * **[SRS Completo (Software Requirements Specification)](./04-requirements/01_Especificacao_Funcional_SRS_Completa.pdf):** Documento mestre com todas as User Stories (Gherkin), regras de negócio (ex: Tabela Mínima, Recolhas) e Requisitos Não-Funcionais (RNF).
