@@ -6,13 +6,13 @@
 
 <div align="center">
 
-![Status](https://img.shields.io/badge/Status-Project%20Ready%20for%20Dev-success?style=for-the-badge)
+![Status](https://img.shields.io/badge/Status-Project%20Completed-success?style=for-the-badge)
 ![Role](https://img.shields.io/badge/Role-Lead%20Functional%20Analyst-blue?style=for-the-badge)
 ![Domain](https://img.shields.io/badge/Domain-Distribution%20%7C%20HORECA-orange?style=for-the-badge)
 
 </div>
 
-> **Projeto de Análise Funcional, Arquitetura de Solução e Prova de Conceito (MVP)** para digitalização de força de vendas em ambientes de baixa conectividade.
+> **Projeto de Análise Funcional, Arquitetura de Solução e Ciclo de Vida Completo (SDLC)** para digitalização de força de vendas em ambientes de baixa conectividade.
 
 ---
 
@@ -30,7 +30,7 @@ A **DouroVinhos**, líder na distribuição de vinhos no Norte de Portugal, oper
 Para equilibrar a **Velocidade de Venda** (Negócio) com a **Segurança** (TI), desenhei uma arquitetura **Offline-First com Edge Validation**.
 
 ### 1. O Fluxo de Solução (BPMN)
-![Fluxo BPMN](./03-architecture/diagrama_final_v1.jpg)
+![Fluxo BPMN](./03-architecture/diagrama_final_v1.png)
 *(Clique na imagem para ampliar)*
 
 ### 2. Decisões Técnicas Chave
@@ -42,7 +42,7 @@ Para equilibrar a **Velocidade de Venda** (Negócio) com a **Segurança** (TI), 
 
 ---
 
-## 📂 Estrutura do Projeto (Artefactos)
+## 📂 Ciclo de Vida do Projeto (Artefactos)
 
 A documentação segue o ciclo de vida completo de Engenharia de Software (SDLC):
 
@@ -55,20 +55,26 @@ A documentação segue o ciclo de vida completo de Engenharia de Software (SDLC)
 
 ### 🔹 [Fase 3: Arquitetura Técnica (TO-BE)](./03-architecture/)
 * **[Especificação de Arquitetura Técnica (Completa)](./03-architecture/01_Especificacao_Arquitetura_Tecnica_Completa.pdf):** Documento mestre v2.0 contendo Diagramas de Sequência (Polling/Sync), Modelo de Dados (ERD) e BPMN.
-* **Artefactos Visuais:** Diagramas de Sequência e Casos de Uso detalhados incluídos na pasta.
 
 ### 🔹 [Fase 4: Especificação Funcional (SRS)](./04-requirements/)
 * **[SRS Completo (Software Requirements Specification)](./04-requirements/01_Especificacao_Funcional_SRS_Completa.pdf):** Documento mestre com todas as User Stories (Gherkin), regras de negócio (ex: Tabela Mínima, Recolhas) e Requisitos Não-Funcionais (RNF).
 
-### 🌟 [BÓNUS: MVP & Prova de Conceito](./05-mvp-demo/)
+### 🔹 [Fase 5: Construção (MVP)](./05-mvp-demo/)
 * **Manual Técnico do MVP:** Documentação da stack (React Native) e arquitetura do protótipo.
-* **Evidências Visuais:** Prints e vídeo do sistema funcional a aplicar as regras de negócio (Bloqueio de Crédito e Ofertas).
+* **Evidências Visuais:** Prints e vídeo do sistema funcional a aplicar as regras de negócio.
+
+### 🔹 [Fase 6: Garantia de Qualidade (QA)](./06-quality-assurance/)
+* **[Plano e Relatório de Testes (UAT)](./06-quality-assurance/01_Plano_e_Relatorio_Testes_QA.pdf):** Roteiro de testes manuais e **evidência de validação automatizada** (Unit Tests) das regras críticas de negócio (Script Node.js).
+
+### 🏁 [Fase 7: Handover & Go-Live](./07-handover/)
+* **[Guia Rápido do Vendedor](./07-handover/01_Guia_Rapido_Vendedor.pdf):** Manual operacional focado na Gestão da Mudança e adoção da ferramenta pela equipa comercial.
 
 ---
 
 ## 🛠️ Tech Stack & Ferramentas
 * **Análise:** BPMN 2.0 (Camunda), User Stories (Gherkin), SRS (Standard).
 * **Arquitetura:** Offline-First, SQL Server Integration, REST concepts.
+* **QA:** Jest (Unit Testing), Expo Go (Mobile Testing).
 * **MVP (PoC):** React Native, Expo, Zustand (State Management).
 
 ---
