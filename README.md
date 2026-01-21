@@ -30,7 +30,7 @@ A **DouroVinhos**, líder na distribuição de vinhos no Norte de Portugal, oper
 Para equilibrar a **Velocidade de Venda** (Negócio) com a **Segurança** (TI), desenhei uma arquitetura **Offline-First com Edge Validation**.
 
 ### 1. O Fluxo de Solução (BPMN)
-![Fluxo BPMN](./03-architecture/diagrama_final_v1.jpg)
+![Fluxo BPMN](./03-architecture/diagrama_final_v1.png)
 *(Clique na imagem para ampliar)*
 
 ### 2. Decisões Técnicas Chave
